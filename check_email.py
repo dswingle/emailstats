@@ -35,7 +35,7 @@ def main (argv):
 
         unread_count = len (mail.search (None, 'UnSeen') [1][0].split ());
 
-	con = mdb.connect ('localhost', 'loader', 'inputxz1287a', 'qs')
+	con = mdb.connect ('localhost', 'loader', 'password', 'qs')
 
 	with con:
 		cur = con.cursor ()
